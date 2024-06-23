@@ -1,0 +1,19 @@
+ <div class="feed-container">
+      <div class="post" *ngFor="let post of posts">
+        <div class="post-header">
+          <img [src]="post.userAvatar" [alt]="post.username">
+          <span>{{ post.username }}</span>
+          <span class="post-time">{{ post.time }}</span>
+        </div>
+        <img [src]="post.imageUrl" [alt]="post.caption" class="post-image">
+        <div class="post-actions">
+          <button>Like</button>
+          <button>Comment</button>
+          <button>Share</button>
+        </div>
+        <div class="post-likes">Liked by {{ post.likes }} and others</div>
+        <div class="post-caption">
+          <strong>{{ post.username }}</strong> {{ post.caption }}
+        </div>
+      </div>
+    </div>

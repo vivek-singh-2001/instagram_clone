@@ -1,0 +1,6 @@
+ <div class="stories-container">
+      <div class="story" *ngFor="let story of stories">
+        <img [src]="story.avatarUrl" [alt]="story.username">
+        <span>{{ story.username }}</span>
+      </div>
+    </div>

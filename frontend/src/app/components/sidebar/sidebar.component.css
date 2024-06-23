@@ -1,0 +1,22 @@
+ .sidebar {
+        width: 220px;
+        padding: 20px;
+        border-right: 1px solid #dbdbdb;
+      }
+      .logo {
+        font-family: 'Instagram Sans', sans-serif;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #262626;
+        font-size: 16px;
+      }
